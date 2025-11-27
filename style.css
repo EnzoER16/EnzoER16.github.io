@@ -50,6 +50,8 @@ h2 {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     background: #1b222b;
     padding: 20px;
     border: 2px groove #78c4d0;
@@ -77,6 +79,12 @@ h2 {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 6px;
+    background: #212c3b;
+    border: 1px solid #58a6ff;
+    margin-top: auto;
+    align-self: flex-start;
 }
 
 footer {
