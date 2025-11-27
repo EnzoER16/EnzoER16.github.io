@@ -39,7 +39,7 @@ header p {
 h2 {
     color: #58a6ff;
     margin-top: 40px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .projects {
@@ -91,6 +91,12 @@ h2 {
 .card a:hover {
     background: #58a6ff;
     color: #0d1117;
+}
+
+.label {
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 4px;
 }
 
 .link-clean {
