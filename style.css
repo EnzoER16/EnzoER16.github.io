@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #0d1117;
+    background: linear-gradient(135deg, #0d1117, #19273b);
     color: #c9d1d9;
 }
 
@@ -42,14 +42,15 @@ h2 {
 }
 
 .card {
-    background: #161b22;
+    background: #1b222b;
     padding: 20px;
+    border: 2px groove #78c4d0;
     border-radius: 10px;
     transition: transform 0.2s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 }
 
 .card h3 {
@@ -63,7 +64,7 @@ h2 {
 }
 
 .card a {
-    color: #58a6ff;
+    color: rgb(79, 164, 170);
     text-decoration: none;
     font-weight: bold;
 }
