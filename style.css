@@ -95,6 +95,7 @@ h2 {
 
 .label {
     font-weight: bold;
+    text-decoration: underline;
     color: #ffffff;
     margin-right: 4px;
 }
